@@ -28,3 +28,5 @@ This is a minimal Spring Boot 3.4 / Java 21 REST application with a single modul
 - **No persistence, no security, no profiles** — `application.properties` sets only `server.port=8080`.
 
 The `Dockerfile` uses a two-stage build: Maven compiles the fat JAR in the builder stage; the runtime stage uses a slim JRE-only image (`eclipse-temurin:21-jre`).
+
+#Je rajoute un peti mot pour tester dans claude MD
