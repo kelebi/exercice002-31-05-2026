@@ -26,3 +26,4 @@ EXPOSE 8080
 
 # Start the Spring Boot application
 ENTRYPOINT ["java", "-jar", "app.jar"]
+# Un autre changement de kenibiele version 2.0
