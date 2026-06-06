@@ -26,3 +26,5 @@ EXPOSE 8080
 
 # Start the Spring Boot application
 ENTRYPOINT ["java", "-jar", "app.jar"]
+
+# Un petit changement pour tester le pipeline CI/CD avec Jenkins et Docker.
